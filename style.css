@@ -1,0 +1,550 @@
+:root {
+  --pink: hsl(322, 100%, 66%);
+  --light-pink: hsl(321, 100%, 78%);
+  --light-red: hsl(0, 100%, 63%);
+  --very-dark-cyan: hsl(192, 100%, 9%);
+  --very-pale-blue: hsl(207, 100%, 98%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+ padding: 40px;
+}
+.navBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 20px;
+}
+
+.navBar img {
+  width: 140px;
+}
+
+.navBar button {
+  padding: 5px 20px;
+  border: 1px solid var(--pink);
+  background: white;
+  color: var(--light-pink);
+  border-radius: 15px;
+}
+
+.navBar button:hover {
+  box-shadow: 0 0 5px var(--light-pink);
+  cursor: pointer;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container .content1 {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.container .content1 h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  color: var(--very-dark-cyan);
+}
+
+.container .content1 p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 420px;
+  text-align: center;
+  color: var(--very-dark-cyan);
+  margin-bottom: 35px;
+}
+
+.container .content1 button {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 600;
+  padding: 20px 70px;
+  background: var(--light-pink);
+  border: none;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+.container .content1 button:hover {
+  box-shadow: 1px 2px 5px #aaa;
+}
+.container .content2 {
+  display: flex;
+  flex-direction: column;
+      align-items: center;
+}
+
+.container .content2 .image2 img {
+  width: auto;
+}
+
+.container .content2 .com {
+          display: flex;
+    height: 150px;
+    width: 70rem;
+    margin: 20px 0;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.container .content2 .com .comIn {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.container .content2 .com .comIn img {
+  height: 25px;
+  width: 25px;
+}
+
+.container .content2 .com .comIn h1 {
+  font-size: 4rem;
+  color: var(--very-dark-cyan);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container .content2 .com .comIn p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.2rem;
+  color: #bbb;
+}
+
+.container .content3 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.container .content3 .containerCom3 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;  
+    margin-bottom: 50px;  
+}
+
+.container .content3 .containerCom3 .textCon3 {
+  width: 450px;
+}
+.container .content3 .containerCom3 .textCon3 h1, p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+
+}
+
+.container .content3 .containerCom3 .contentImage img {
+  width: 450px;
+}
+
+.container .content4 {
+  height: 300px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .content4 h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 30px;
+}
+
+.container .content4 button {
+  padding: 20px 50px;
+  border: none;
+  background: var(--light-pink);
+  color: white;
+  border-radius: 30px;
+}
+
+.container .content4 button:hover {
+  box-shadow: 1px 2px 5px #aaa;
+  cursor: pointer;
+}
+
+.container .content5 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: start;
+    justify-content: space-evenly;
+    padding: 50px 0 0 0;
+    background: var(--very-pale-blue);
+    padding: 30px 0 30px 0;
+}
+
+.container .content5 .contentLeft {
+  width: 400px;
+  
+}
+.container .content5 .contentLeft img {
+  width: 160px;
+}
+
+.container .content5 .contentLeft P {
+  width: 300px;
+}
+
+.container .content5 .contentRight {
+ width: 400px;
+
+}
+
+.container .content5 .contentRight h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.container .content5 .contentRight p {
+  width: 340px;
+  margin-bottom: 30px;
+}
+
+.container .content5 .contentRight .inputSub input {
+   border: 1px solid var(--pink);
+   padding: 10px 20px;
+   border-radius: 5px;
+}
+
+.container .content5 .contentRight .inputSub button {
+  padding: 10px 30px;
+  background: var(--light-pink);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  margin-left: 20px;
+}
+
+.container .content5 .contentRight .inputSub button:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 5px #aaa;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+ padding: 20px 15px;
+}
+  .navBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 20px;
+}
+
+.container .content1 h1 {
+    margin-bottom: 9px;
+    font-size: 1.8rem;
+    width: 310px;
+    text-align: center;
+}
+
+.container .content1 p {
+    width: 265px;
+    text-align: justify;
+}
+
+.container .content1 button {
+  padding: 15px 34px;
+    background: var(--pink);
+}
+
+.container .content1 button:hover {
+  box-shadow: 1px 2px 5px #aaa;
+}
+.container .content2 {
+  display: flex;
+  flex-direction: column;
+      align-items: center;
+}
+
+.container .content2 .image2 img {
+  width: 315px;
+}
+
+.container .content2 .com {
+    height: 283px;
+    width: 0rem;
+    margin: 40px 0;
+    flex-direction: column;
+
+}
+.container .content3 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.container .content3 .containerCom3 {
+    flex-direction: column-reverse; 
+}
+
+.container .content3 .containerCom3Mobile {
+  display: flex;
+    align-items: center;
+    flex-direction: column !important;
+}
+
+.container .content3 .containerCom3 .textCon3 {
+  width: 333px;
+  text-align: center;
+}
+
+.container .content3 .containerCom3 .contentImage img {
+  width: 333px;
+}
+
+.container .content4 h1 {
+  text-align: center;
+}
+
+.container .content4 button {
+  padding: 15px 30px;
+  background: var(--pink);
+}
+.container .content5 {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px 0 0 0;
+    background: var(--very-pale-blue);
+    padding: 30px;
+}
+
+.container .content5 .contentLeft {
+  width: 100%;
+  margin: 30px 0;
+  
+}
+.container .content5 .contentLeft img {
+  width: 160px;
+}
+
+.container .content5 .contentLeft P {
+  width: 300px;
+}
+
+.container .content5 .contentRight {
+ width: 100%;
+
+}
+
+.container .content5 .contentRight h1 {
+  font-size: 1.2rem;
+}
+
+.container .content5 .contentRight p {
+  width: 300px;
+  margin-bottom: 30px;
+}
+.container .content5 .contentRight .inputSub {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: end;
+}
+.container .content5 .contentRight .inputSub input {
+   border: 1px solid var(--pink);
+   padding: 10px 20px;
+   margin-bottom: 20px;
+   border-radius: 5px;
+   width: 100%;
+}
+
+.container .content5 .contentRight .inputSub button {
+  padding: 15px 30px;
+  background: var(--pink);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  margin-left: 20px;
+}
+
+.container .content5 .contentRight .inputSub button:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 5px #aaa;
+}
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+ body {
+ padding: 20px 15px;
+}
+  .navBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 20px;
+}
+
+.container .content1 h1 {
+    margin-bottom: 9px;
+    font-size: 2rem;
+    width: 450px;
+    text-align: center;
+}
+
+.container .content1 p {
+    width: 400px;
+    text-align: justify;
+}
+
+.container .content1 button {
+  padding: 15px 34px;
+    background: var(--pink);
+}
+
+.container .content1 button:hover {
+  box-shadow: 1px 2px 5px #aaa;
+}
+.container .content2 {
+  display: flex;
+  flex-direction: column;
+      align-items: center;
+}
+
+.container .content2 .image2 img {
+  width: 440px;
+}
+
+.container .content2 .com {
+    height: 283px;
+    width: 100%;
+    margin: 40px 0;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.container .content3 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.container .content3 .containerCom3 {
+    flex-direction: column-reverse; 
+}
+
+.container .content3 .containerCom3Mobile {
+  display: flex;
+    align-items: center;
+    flex-direction: column !important;
+}
+
+.container .content3 .containerCom3 .textCon3 {
+  width: 333px;
+  text-align: center;
+}
+
+.container .content3 .containerCom3 .contentImage img {
+  width: 333px;
+}
+
+.container .content4 h1 {
+  text-align: center;
+}
+
+.container .content4 button {
+  padding: 15px 30px;
+  background: var(--pink);
+}
+.container .content5 {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px 0 0 0;
+    background: var(--very-pale-blue);
+    padding: 30px;
+}
+
+.container .content5 .contentLeft {
+  width: 100%;
+  margin: 30px 0;
+  
+}
+.container .content5 .contentLeft img {
+  width: 160px;
+}
+
+.container .content5 .contentLeft P {
+  width: 300px;
+}
+
+.container .content5 .contentRight {
+ width: 100%;
+
+}
+
+.container .content5 .contentRight h1 {
+  font-size: 1.2rem;
+}
+
+.container .content5 .contentRight p {
+  width: 300px;
+  margin-bottom: 30px;
+}
+.container .content5 .contentRight .inputSub {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: end;
+}
+.container .content5 .contentRight .inputSub input {
+   border: 1px solid var(--pink);
+   padding: 10px 20px;
+   margin-bottom: 20px;
+   border-radius: 5px;
+   width: 100%;
+}
+
+.container .content5 .contentRight .inputSub button {
+  padding: 15px 30px;
+  background: var(--pink);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  margin-left: 20px;
+}
+
+.container .content5 .contentRight .inputSub button:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 5px #aaa;
+}
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+.container .content2 .image2 img {
+    width: 100%;
+}
+
+}
