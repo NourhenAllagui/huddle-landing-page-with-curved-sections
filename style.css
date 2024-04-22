@@ -259,12 +259,12 @@ body {
 .container .content1 h1 {
     margin-bottom: 9px;
     font-size: 1.8rem;
-    width: 310px;
+    width: auto;
     text-align: center;
 }
 
 .container .content1 p {
-    width: 265px;
+    width: auto;
     text-align: justify;
 }
 
@@ -283,7 +283,8 @@ body {
 }
 
 .container .content2 .image2 img {
-  width: 315px;
+  width: 100%;
+  padding: 15px;
 }
 
 .container .content2 .com {
@@ -310,12 +311,12 @@ body {
 }
 
 .container .content3 .containerCom3 .textCon3 {
-  width: 333px;
+  width: auto;
   text-align: center;
 }
 
 .container .content3 .containerCom3 .contentImage img {
-  width: 333px;
+  width: 100%;
 }
 
 .container .content4 h1 {
@@ -347,7 +348,7 @@ body {
 }
 
 .container .content5 .contentLeft P {
-  width: 300px;
+  width: auto;
 }
 
 .container .content5 .contentRight {
@@ -360,7 +361,7 @@ body {
 }
 
 .container .content5 .contentRight p {
-  width: 300px;
+  width: auto;
   margin-bottom: 30px;
 }
 .container .content5 .contentRight .inputSub {
